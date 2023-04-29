@@ -5,7 +5,7 @@ project(Manjusaka)
 
 # 配置环境
 set(CMAKE_SYSTEM_NAME "Linux")
-set(CMAKE_SYSTEM_PROCESSOR "aarch64")
+set(CMAKE_SYSTEM_PROCESSOR "aarch32")
 set(TZ "Asia/Shanghai")
 execute_process(COMMAND ln -snf /usr/share/zoneinfo/${TZ} /etc/localtime)
 execute_process(COMMAND echo ${TZ} > /etc/timezone)
